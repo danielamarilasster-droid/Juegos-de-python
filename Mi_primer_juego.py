@@ -1,7 +1,7 @@
 import random
 
 print("====================================")
-print("  ¡BIENVENIDO AL JUEGO, DANIEL!   ")
+print("  ¡BIENVENIDO AL JUEGO, jugador!   ")
 print("====================================")
 
 # Elige tu arma
@@ -19,9 +19,9 @@ print("------------------------------------")
 if tu_opcion == computadora:
     print("¡Es un empate! 🤝")
 elif tu_opcion == "piedra" and computadora == "tijera":
-    print("¡Ganaste, Daniel! La piedra rompe la tijera. 🏆")
+    print("¡Ganaste, jugador! La piedra rompe la tijera. 🏆")
 elif tu_opcion == "papel" and computadora == "piedra":
-    print("¡Ganaste, Daniel! El papel envuelve la piedra. 🏆")
+    print("¡Ganaste, jugador! El papel envuelve la piedra. 🏆")
 elif tu_opcion == "tijera" and computadora == "papel":
     print("¡Ganaste, Daniel! La tijera corta el papel. 🏆")
 else:
